@@ -35,3 +35,7 @@ Local saves are browser-specific. Export a JSON backup before clearing browser s
 php -l index.php
 node --check assets/app.js
 ```
+
+## Standalone HTML version
+
+Open `index.html` directly in your browser. CSS and JavaScript are embedded, so PHP and a web server are unnecessary. This version validates JSON locally and has the same editor features. Browser local-storage behavior for file URLs varies; use Export JSON for reliable backups.
